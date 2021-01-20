@@ -8,3 +8,14 @@ label {
     width:150px;
     display:inline-block;
 }
+
+img {
+    max-width: 100%;
+    height:auto;
+}   
+
+.big{
+    width:auto;
+    text-align: center;
+    padding: 20px;
+}
