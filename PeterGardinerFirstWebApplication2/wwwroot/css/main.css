@@ -1,0 +1,10 @@
+﻿body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+label {
+    font-size: 20px;
+    color: darkgreen;
+    width:150px;
+    display:inline-block;
+}
