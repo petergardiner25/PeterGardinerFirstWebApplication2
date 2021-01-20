@@ -8,14 +8,17 @@ submit.addEventListener("click", function(){
     let intex = document.getElementById('intex').value;
     let grade = " "
 
+    //find weighted %
     assignmentW = assignment * .5;
     projectW = project * .1;
     quizW = quiz * .1;
     examW = exam * .2;
     intexW = intex * .1; 
 
+    //add to find total
     total = assignmentW + projectW + quizW + examW + intexW; 
 
+    //if to calculate letter grade
     if (total >= 94) {
         grade = 'A';
     }
@@ -53,6 +56,6 @@ submit.addEventListener("click", function(){
         grade = 'E';
     }
 
-
+    //display letter grade
     alert('You got an ' + grade + ' with ' + total + '%');
 });
