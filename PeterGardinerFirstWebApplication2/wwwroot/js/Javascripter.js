@@ -54,5 +54,5 @@ submit.addEventListener("click", function(){
     }
 
 
-    alert(total + ' ' + grade);
+    alert('You got an ' + grade + ' with ' + total + '%');
 });
