@@ -1,7 +1,7 @@
-﻿var submit = document.getElementById("submitbutton");
+﻿var submit = $("submitbutton");
 
 submit.addEventListener("click", function(){
-    let assignment = document.getElementById('assignment').value;
+    let assignment = $('assignment').value;
     let project = document.getElementById('project').value;
     let quiz = document.getElementById('quiz').value;
     let exam = document.getElementById('exams').value;
@@ -59,3 +59,5 @@ submit.addEventListener("click", function(){
     //display letter grade
     alert('You got an ' + grade + ' with ' + total + '%');
 });
+
+
