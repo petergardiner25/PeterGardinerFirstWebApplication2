@@ -1,7 +1,7 @@
-﻿var submit = $("submitbutton");
+﻿var submit = document.getElementById("submitbutton");
 
 submit.addEventListener("click", function(){
-    let assignment = $('assignment').value;
+    let assignment = document.getElementById('assignment').value;
     let project = document.getElementById('project').value;
     let quiz = document.getElementById('quiz').value;
     let exam = document.getElementById('exams').value;
